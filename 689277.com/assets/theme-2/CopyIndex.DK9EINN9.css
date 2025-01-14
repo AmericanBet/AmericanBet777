@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_1qo0e_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._copy_1qo0e_25 {
+    color: var(--skin__primary);
+    cursor: pointer
+}

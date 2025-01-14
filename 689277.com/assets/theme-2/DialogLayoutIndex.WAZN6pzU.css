@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_rps1n_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._dialogBox_rps1n_25 {
+    width: 6.9rem
+}
+
+._dialogBox_rps1n_25 .ui-dialog__header {
+    color: var(--skin__lead)
+}
+
+._dialogBox_rps1n_25 .ui-dialog__content {
+    padding: 0 .2rem .2rem
+}
+
+._dialogBox_rps1n_25 .ui-dialog__main {
+    background-color: var(--skin__bg_1)
+}
+
+._scrollBox_rps1n_38 {
+    max-height: calc(var(--lobby__screen-height) - 3.44rem);
+    min-height: 2rem;
+    padding: 0 .2rem .01rem;
+    margin: 0 -.2rem;
+    overflow: auto
+}
+
+._persist-horizontal_rps1n_46 {
+    margin-top: .2rem
+}
+
+._persist-vertical_rps1n_50 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .2rem;
+    word-wrap: break-word
+}

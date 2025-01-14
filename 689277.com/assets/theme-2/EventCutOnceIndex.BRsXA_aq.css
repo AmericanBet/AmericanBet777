@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_1g77b_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._dialogBox_1g77b_25 {
+    width: 6.9rem
+}
+
+._dialogBox_1g77b_25 .ui-placeholder,
+._dialogBox_1g77b_25 .ui-tabs {
+    margin-bottom: 0
+}
+
+._dialogBox_1g77b_25 .ui-dialog__main {
+    background-color: var(--skin__bg_1)
+}
+
+._dialogBox_1g77b_25 .ui-dialog__content {
+    padding: 0 .2rem .2rem
+}
+
+._persistBox_1g77b_41 {
+    margin-top: .2rem
+}

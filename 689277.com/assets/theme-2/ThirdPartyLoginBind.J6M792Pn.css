@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_fqvjy_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._thirdParty_fqvjy_25 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .22rem
+}
+
+._thirdParty_fqvjy_25 ._title_fqvjy_32 {
+    margin-bottom: .2rem;
+    width: 100%
+}
+
+._thirdParty_fqvjy_25 ._title_fqvjy_32 ._titleCenter_fqvjy_36 {
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+._thirdParty_fqvjy_25 ._title_fqvjy_32 ._titleCenter_fqvjy_36 ._titleWing_fqvjy_41 {
+    position: relative;
+    padding: 0 .9rem;
+    color: var(--skin__neutral_2);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+._thirdParty_fqvjy_25 ._title_fqvjy_32 ._titleCenter_fqvjy_36 ._titleWing_fqvjy_41:before,
+._thirdParty_fqvjy_25 ._title_fqvjy_32 ._titleCenter_fqvjy_36 ._titleWing_fqvjy_41:after {
+    position: absolute;
+    top: 50%;
+    width: .7rem;
+    height: .01rem;
+    background-color: var(--skin__border);
+    transform: translateY(-50%);
+    content: ""
+}
+
+._thirdParty_fqvjy_25 ._title_fqvjy_32 ._titleCenter_fqvjy_36 ._titleWing_fqvjy_41:before {
+    left: 0
+}
+
+._thirdParty_fqvjy_25 ._title_fqvjy_32 ._titleCenter_fqvjy_36 ._titleWing_fqvjy_41:after {
+    right: 0
+}
+
+._thirdParty_fqvjy_25 ._title_fqvjy_32 ._titleLeft_fqvjy_64 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    color: var(--skin__lead);
+    border-bottom: var(--lobby__px) solid var(--skin__border);
+    padding-bottom: .2rem
+}
+
+._thirdParty_fqvjy_25 ._title_fqvjy_32 ._titleLeft_fqvjy_64 ._subTitle_fqvjy_73 {
+    margin-left: .2rem;
+    font-weight: 400;
+    color: var(--skin__neutral_1)
+}
+
+._thirdParty_fqvjy_25 ._list_fqvjy_78 {
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+._thirdParty_fqvjy_25 ._list_fqvjy_78[data-align=left] {
+    justify-content: flex-start
+}
+
+._thirdParty_fqvjy_25 ._list_fqvjy_78[data-align=center] {
+    justify-content: center
+}
+
+._thirdParty_fqvjy_25 ._list_fqvjy_78 ._item_fqvjy_89 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: .4rem
+}
+
+._thirdParty_fqvjy_25 ._list_fqvjy_78 ._item_fqvjy_89:last-child {
+    margin-right: unset
+}

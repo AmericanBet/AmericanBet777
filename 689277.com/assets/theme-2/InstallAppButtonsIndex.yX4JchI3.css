@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_84r90_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._buttons_84r90_25 {
+    margin-top: .3rem;
+    display: grid;
+    gap: .2rem;
+    grid-template-columns: 1fr 1fr
+}
+
+._buttons_84r90_25 ._item_84r90_31 {
+    position: relative
+}
+
+._buttons_84r90_25 ._item_84r90_31:nth-child(2n-1):last-child {
+    grid-column: 1/-1
+}
+
+._buttons_84r90_25 ._item_84r90_31 .ui-button__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._icon_84r90_43 {
+    width: .35rem
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46 {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46>span {
+    font-size: .2rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46 ._hotName_84r90_63 {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: .17rem
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46 ._hot_84r90_63 {
+    position: absolute;
+    top: -.015rem;
+    left: -.015rem;
+    display: flex
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46 ._hot_84r90_63 ._redLiteral_84r90_78 {
+    display: block;
+    height: .24rem;
+    padding: 0 .06rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: .12rem;
+    line-height: .24rem;
+    background: var(--skin__accent_2);
+    border-radius: .08rem 0 0
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46 ._hot_84r90_63 i {
+    position: absolute;
+    right: -.15rem;
+    color: var(--skin__accent_2);
+    font-size: .24rem
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46 ._wrapperAutoLogin_84r90_95 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46 ._wrapperAutoLogin_84r90_95 ._autoLogin_84r90_103 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: .22rem;
+    height: .22rem;
+    background-color: var(--skin__accent_1);
+    border-radius: .05rem
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46 ._wrapperAutoLogin_84r90_95 ._autoLogin_84r90_103 svg {
+    color: #fff;
+    font-size: .16rem
+}
+
+._buttons_84r90_25 ._item_84r90_31 ._appname_84r90_46 ._wrapperAutoLogin_84r90_95 ._autoLoginLeteral_84r90_116 {
+    margin-left: .06rem;
+    font-size: .2rem
+}
+
+._buttons_84r90_25 ._ghost_84r90_120 {
+    color: var(--skin__primary);
+    border: .02rem solid var(--skin__primary);
+    background: transparent
+}
+
+._buttons_84r90_25 ._iosBtn_84r90_125 {
+    color: var(--skin__text_primary);
+    background: var(--skin__primary);
+    width: 100%;
+    height: .7rem;
+    padding: 0 .15rem;
+    font-size: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: .14rem
+}
+
+._buttons_84r90_25 ._iosBtn_84r90_125._ghost_84r90_120 {
+    color: var(--skin__primary);
+    border: .02rem solid var(--skin__primary);
+    background: transparent
+}
+
+._buttons_84r90_25:not(:lang(zh)):not(:lang(tw)):not(:lang(en)) ._appname_84r90_46>span {
+    font-size: .18rem !important;
+    line-height: 1.4
+}
+
+._buttons_84r90_25:not(:lang(zh)):not(:lang(tw)):not(:lang(en)) ._autoLoginLeteral_84r90_116 {
+    font-size: .15rem !important
+}
+
+._buttons_84r90_25:not(:lang(zh)):not(:lang(tw)):not(:lang(en)) ._redLiteral_84r90_78 {
+    font-size: .12rem !important
+}
+
+._buttons_84r90_25:not(:lang(zh)):not(:lang(tw)):not(:lang(en)) ._autoLogin_84r90_103 {
+    width: .2rem !important;
+    height: .2rem !important
+}
+
+._buttons_84r90_25:not(:lang(zh)):not(:lang(tw)):not(:lang(en)) ._autoLogin_84r90_103 svg {
+    font-size: .12rem !important
+}
+
+._buttons_84r90_25:lang(my) ._autoLoginLeteral_84r90_116 {
+    font-size: .12rem !important
+}
+
+._buttons_84r90_25:lang(my) .ui-button__text {
+    gap: 0
+}

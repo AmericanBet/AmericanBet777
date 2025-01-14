@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_30o0l_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._dropdown_30o0l_25 .ui-popover__content {
+    border: var(--lobby__px) solid var(--skin__border)
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28 {
+    padding: .15rem 0;
+    max-width: 100%;
+    max-height: 3.75rem;
+    overflow-y: auto;
+    background-color: var(--skin__bg_2);
+    color: var(--skin__neutral_2)
+}
+
+html[data-isdesktop="0"] ._dropdown_30o0l_25 ._list_30o0l_28 {
+    scrollbar-color: var(--skin__border) transparent;
+    scrollbar-width: thin
+}
+
+html[data-isdesktop="0"] ._dropdown_30o0l_25 ._list_30o0l_28>* {
+    scrollbar-color: auto
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28::-webkit-scrollbar {
+    z-index: 11;
+    width: .06rem
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28::-webkit-scrollbar-thumb {
+    width: .06rem;
+    background: var(--skin__border);
+    border-radius: .06rem
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28::-webkit-scrollbar-corner {
+    background: transparent
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28::-webkit-scrollbar-track {
+    background: transparent
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28::-webkit-scrollbar-track-piece {
+    width: .06rem;
+    background: transparent
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28::-webkit-scrollbar:horizontal {
+    height: .06rem
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28::-webkit-scrollbar:horizontal-thumb {
+    border-radius: .06rem
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28 ._item_30o0l_69 {
+    padding: 0 .1rem 0 .2rem;
+    font-size: .24rem;
+    line-height: .8rem;
+    min-height: .8rem
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28 ._item_30o0l_69._active_30o0l_75 {
+    background-color: initial;
+    color: var(--skin__primary);
+    font-weight: 400
+}
+
+._dropdown_30o0l_25 ._list_30o0l_28 ._item_30o0l_69:hover {
+    background-color: var(--skin__bg_1)
+}
+
+._icon_30o0l_84 {
+    max-width: initial !important;
+    width: .36rem;
+    height: .3rem
+}

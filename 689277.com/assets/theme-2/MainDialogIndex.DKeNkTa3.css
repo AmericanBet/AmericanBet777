@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_181ha_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._download_181ha_25 .ui-dialog__main {
+    min-height: auto
+}
+
+._download_181ha_25 .ui-dialog__content {
+    padding: 0 .2rem .2rem
+}
+
+._download_181ha_25 ._info_181ha_31 {
+    padding-top: .3rem;
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+    justify-content: center
+}
+
+._download_181ha_25 ._info_181ha_31 img {
+    width: 1.2rem;
+    height: 1.2rem
+}
+
+._download_181ha_25 ._info_181ha_31 ._title_181ha_42 {
+    width: 4.16rem;
+    color: var(--skin__lead);
+    font-size: .3rem;
+    text-align: left;
+    max-height: 5rem;
+    overflow: auto
+}
+
+._download_181ha_25 ._info_181ha_31 ._title_181ha_42:first-child {
+    text-align: center
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_29y2d_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._persistCheckbox_29y2d_25 {
+    font-size: .22rem;
+    color: var(--skin__neutral_1);
+    cursor: pointer
+}
+
+._persistCheckbox_29y2d_25 .ui-checkbox__label {
+    margin-left: .1rem;
+    color: var(--skin__neutral_1)
+}
+
+._horizontal_29y2d_35 {
+    display: flex !important;
+    justify-content: space-between
+}
+
+._vertical_29y2d_40 {
+    display: block !important
+}
+
+._vertical_29y2d_40 .ui-checkbox {
+    display: flex
+}
+
+._vertical_29y2d_40 .ui-checkbox+.ui-checkbox {
+    margin-top: .2rem
+}

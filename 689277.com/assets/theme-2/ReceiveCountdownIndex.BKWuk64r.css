@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_jznwl_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._countdown_jznwl_25 {
+    white-space: nowrap;
+    color: var(--skin__neutral_1);
+    font-size: .16rem;
+    line-height: 1;
+    text-align: right
+}
+
+._countdown_jznwl_25 span {
+    color: var(--skin__neutral_1);
+    background: transparent !important;
+    flex-wrap: wrap
+}
+
+._countdown_jznwl_25._inheritTextColor_jznwl_37,
+._countdown_jznwl_25._inheritTextColor_jznwl_37 span {
+    color: inherit
+}
+
+._expiredCountdown_jznwl_44 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end
+}
+
+._expiredCountdown_jznwl_44 span {
+    color: var(--skin__accent_2)
+}
+
+._receiveCountdown_jznwl_53 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end
+}
+
+._receiveCountdown_jznwl_53 span {
+    color: var(--skin__accent_3)
+}

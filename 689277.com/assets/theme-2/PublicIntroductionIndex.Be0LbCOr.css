@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_3rxtc_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._introduction_3rxtc_25 {
+    padding: 0 .2rem .2rem
+}
+
+._introduction_3rxtc_25._paddingBottom_3rxtc_28 {
+    padding-bottom: 1.5rem
+}
+
+._introduction_3rxtc_25 .introduction-inner {
+    padding: .2rem;
+    overflow-y: auto;
+    color: var(--skin__neutral_2);
+    font-size: .22rem;
+    line-height: .36rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+    background-color: var(--skin__bg_2);
+    border-radius: .1rem;
+    box-shadow: 0 .03rem .09rem rgba(0, 0, 0, .06)
+}
+
+._introduction_3rxtc_25 .introduction-inner .text-darken {
+    font-weight: 700
+}

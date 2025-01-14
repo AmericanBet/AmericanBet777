@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_1jy2r_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._source-text_1jy2r_25 {
+    cursor: pointer;
+    color: var(--skin__primary)
+}
+
+._modal-content-box_1jy2r_30 .ui-dialog__header {
+    color: var(--skin__lead)
+}
+
+._modal-content-box_1jy2r_30 .ui-dialog__content {
+    padding: 0 .3rem .4rem;
+    max-height: calc(var(--lobby__screen-height) - 3rem);
+    overflow: auto
+}

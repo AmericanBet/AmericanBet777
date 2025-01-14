@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_ndysr_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._loginRegisterDialog_ndysr_25 {
+    --other-space: 2rem;
+    --left-right-space: .3rem;
+    --form-right-space: calc((var(--left-right-space) - .06rem) / 2);
+    --container-space: .2rem;
+    width: 6.9rem;
+    min-height: unset;
+    overflow-y: auto
+}
+
+._loginRegisterDialog_ndysr_25 .ui-dialog__content {
+    padding: unset
+}
+
+._loginRegisterDialog_ndysr_25 .ui-dialog__main {
+    background: var(--skin__bg_2);
+    overflow: visible
+}
+
+._loginRegisterDialog_ndysr_25[data-theme="1"] .loginRegisterFragment {
+    padding-top: 0
+}

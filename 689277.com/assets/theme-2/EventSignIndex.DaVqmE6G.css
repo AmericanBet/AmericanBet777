@@ -1,0 +1,231 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_1gt5l_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._sign-dialog_1gt5l_25 {
+    width: 7.1rem
+}
+
+._sign-dialog_1gt5l_25 .ui-dialog__main {
+    background-color: transparent;
+    border-radius: 0;
+    min-height: auto;
+    overflow: hidden;
+    border: none
+}
+
+._sign-dialog_1gt5l_25 .ui-dialog__main .ui-dialog__header {
+    padding: 0 .3rem
+}
+
+._sign-dialog_1gt5l_25 .ui-dialog__main .ui-dialog__content {
+    background: var(--skin__bg_1);
+    border-radius: .2rem;
+    padding: 0 0 .2rem
+}
+
+._sign-dialog_1gt5l_25 .ui-dialog__main .ui-dialog__content .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+._sign-dialog_1gt5l_25 .ui-dialog__main .ui-dialog__content .lobby-scroll {
+    padding-bottom: 0
+}
+
+._sign-dialog_1gt5l_25 .ui-dialog__main .ui-dialog__content .persist-box {
+    position: relative;
+    z-index: 10;
+    padding: .2rem .2rem 0
+}
+
+._sign-dialog_1gt5l_25 .ui-dialog__main .ui-dialog__content,
+._sign-dialog_1gt5l_25 .ui-dialog__main .placeholder {
+    min-height: calc(var(--lobby__screen-height) - 3.5rem);
+    height: calc(var(--lobby__screen-height) - 3.5rem)
+}
+
+._sign-dialog_1gt5l_25 .ui-dialog-close-box>div {
+    position: static
+}
+
+._sign-dialog_1gt5l_25._sign-style0_1gt5l_64 .ui-dialog__main {
+    background-color: var(--skin__bg_1);
+    border-radius: .2rem
+}
+
+._sign-dialog_1gt5l_25._sign-style0_1gt5l_64 .ui-dialog__main .ui-dialog__header {
+    color: var(--skin__lead);
+    padding: .2rem .3rem
+}
+
+._sign-dialog_1gt5l_25._sign-style0_1gt5l_64 .ui-dialog__main .ui-dialog__content {
+    background: transparent
+}
+
+._sign-dialog_1gt5l_25._sign-style0_1gt5l_64 .ui-dialog__main .ui-dialog__content,
+._sign-dialog_1gt5l_25._sign-style0_1gt5l_64 .ui-dialog__main .placeholder {
+    min-height: calc(var(--lobby__screen-height) - 4.3rem);
+    height: calc(var(--lobby__screen-height) - 4.3rem)
+}
+
+._sign-dialog_1gt5l_25._sign-style1_1gt5l_80 .ui-dialog__content {
+    position: relative;
+    z-index: 2;
+    background: var(--skin__bg_2);
+    border: var(--lobby__px) solid var(--skin__border)
+}
+
+._sign-dialog_1gt5l_25._sign-style1_1gt5l_80 .ui-dialog__main .ui-dialog__content,
+._sign-dialog_1gt5l_25._sign-style1_1gt5l_80 .ui-dialog__main .placeholder {
+    min-height: calc(var(--lobby__screen-height) - 4.47rem);
+    height: calc(var(--lobby__screen-height) - 4.47rem)
+}
+
+._sign-dialog_1gt5l_25._sign-style2_1gt5l_91 .ui-dialog__content {
+    position: relative;
+    z-index: 2;
+    background: var(--skin__bg_2);
+    border: var(--lobby__px) solid var(--skin__border)
+}
+
+._sign-dialog_1gt5l_25._sign-style2_1gt5l_91 .ui-dialog__content,
+._sign-dialog_1gt5l_25._sign-style2_1gt5l_91 .placeholder {
+    min-height: calc(var(--lobby__screen-height) - 5.16rem);
+    height: calc(var(--lobby__screen-height) - 5.16rem)
+}
+
+._sign-dialog_1gt5l_25._sign-style3_1gt5l_102 .ui-dialog__main,
+._sign-dialog_1gt5l_25._sign-style4_1gt5l_105 .ui-dialog__main {
+    border-radius: .2rem
+}
+
+._sign-dialog_1gt5l_25._sign-style4_1gt5l_105 .ui-dialog__main .ui-dialog__content,
+._sign-dialog_1gt5l_25._sign-style4_1gt5l_105 .ui-dialog__main .placeholder {
+    min-height: calc(var(--lobby__screen-height) - 4.29rem);
+    height: calc(var(--lobby__screen-height) - 4.29rem)
+}
+
+._sign-dialog_1gt5l_25._sign-style4_1gt5l_105 .ui-dialog__header {
+    height: .81rem;
+    padding: 0
+}
+
+._sign-dialog_1gt5l_25._sign-style4_1gt5l_105 .ui-dialog__header span {
+    display: block;
+    width: 100%
+}
+
+._sign-dialog_1gt5l_25._sign-style5_1gt5l_121 .ui-dialog__header {
+    position: relative;
+    z-index: 1;
+    height: .86rem;
+    padding: 0
+}
+
+._sign-dialog_1gt5l_25._sign-style5_1gt5l_121 .ui-dialog__header span {
+    display: block;
+    width: 100%
+}
+
+._sign-dialog_1gt5l_25._sign-style5_1gt5l_121 .ui-dialog__content {
+    position: relative;
+    border-radius: .2rem;
+    padding: .25rem .2rem .2rem;
+    background-color: var(--skin__primary)
+}
+
+._sign-dialog_1gt5l_25._sign-style5_1gt5l_121 .ui-dialog__content:after {
+    content: "";
+    position: absolute;
+    top: .25rem;
+    right: .2rem;
+    bottom: .2rem;
+    left: .2rem;
+    z-index: 2;
+    min-height: 3rem;
+    border-radius: .2rem;
+    border: var(--lobby__px) solid var(--skin__border);
+    background-color: var(--skin__bg_1)
+}
+
+._sign-dialog_1gt5l_25._sign-style5_1gt5l_121 .ui-dialog__content .persist-box {
+    padding: 0 .2rem .2rem
+}
+
+._sign-dialog_1gt5l_25._sign-style5_1gt5l_121 .ui-dialog__main .ui-dialog__content {
+    min-height: calc(var(--lobby__screen-height) - 4.3rem);
+    height: calc(var(--lobby__screen-height) - 4.3rem)
+}
+
+._sign-dialog_1gt5l_25._sign-style5_1gt5l_121 .ui-dialog__main .placeholder {
+    min-height: calc(var(--lobby__screen-height) - 4.5rem);
+    height: calc(var(--lobby__screen-height) - 4.5rem)
+}
+
+._sign-dialog_1gt5l_25._sign-style6_1gt5l_161 .ui-dialog__content {
+    position: relative;
+    z-index: 2;
+    background: var(--skin__bg_2)
+}
+
+._sign-dialog_1gt5l_25._sign-style6_1gt5l_161 .ui-dialog__content .persist-box {
+    padding: .2rem .4rem 0
+}
+
+._sign-dialog_1gt5l_25._sign-style6_1gt5l_161 .ui-dialog__main .ui-dialog__content,
+._sign-dialog_1gt5l_25._sign-style6_1gt5l_161 .ui-dialog__main .placeholder {
+    min-height: calc(var(--lobby__screen-height) - 4.34rem);
+    height: calc(var(--lobby__screen-height) - 4.34rem)
+}
+
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25 .ui-dialog__main {
+    border: 0
+}
+
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25 .ui-dialog__header {
+    border: none
+}
+
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25 .ui-dialog__content {
+    border: var(--lobby__px) solid var(--skin__border)
+}
+
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style0_1gt5l_64 .ui-dialog__header,
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style4_1gt5l_105 .ui-dialog__header {
+    border: var(--lobby__px) solid var(--skin__border);
+    border-bottom: none;
+    border-radius: .2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style0_1gt5l_64 .ui-dialog__content,
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style4_1gt5l_105 .ui-dialog__content {
+    border: var(--lobby__px) solid var(--skin__border);
+    border-top: none;
+    border-radius: .2rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style3_1gt5l_102 .ui-dialog__header,
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style5_1gt5l_121 .ui-dialog__header,
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style1_1gt5l_80 .ui-dialog__header,
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style2_1gt5l_91 .ui-dialog__header,
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style6_1gt5l_161 .ui-dialog__header {
+    border: none
+}
+
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style1_1gt5l_80 .ui-dialog__content,
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style2_1gt5l_91 .ui-dialog__content,
+html[data-skin-bg="1"] ._sign-dialog_1gt5l_25._sign-style6_1gt5l_161 .ui-dialog__content {
+    border: var(--lobby__px) solid var(--skin__border)
+}

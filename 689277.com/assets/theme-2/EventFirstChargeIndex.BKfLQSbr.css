@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@keyframes _common_bganimation_i3y98_1 {
+    0% {
+        background-position-x: 125%
+    }
+    to {
+        background-position-x: -32%
+    }
+}
+
+._ruleListBox_i3y98_25 {
+    margin-bottom: 0
+}
+
+._ruleListBox_i3y98_25 .ui-table__table {
+    margin: 0
+}
